@@ -1,3 +1,32 @@
 .form-section {
   background-color: white;
+  margin: 50px 0px;
+}
+
+.form__items__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px 40px;
+}
+
+.form__item {
+  align-self: flex-start;
+  margin: 10px;
+}
+
+legend {
+  box-shadow: 4px 4px 20px 1px rgba(54,54,54,0.3);
+  margin: 20px 0px;
+}
+
+label {
+  display: block;
+}
+
+input {
+  border: 2px solid rgb(20, 146, 20);
+  min-height: 2em;
+  border-radius: 4px;
+  width: 300px;
 }
