@@ -50,10 +50,12 @@ body {
   font-size: 62.5%;
   box-sizing: border-box;
   line-height: 1.4;
+	font-family: 'Courier New', Courier, monospace;
 }
 
 main {
   display: flex;
   flex-direction: row;
   font-size: 1.6rem;
+	background-color: black;
 }
