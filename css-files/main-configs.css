@@ -49,4 +49,12 @@ table {
 body {
   font-size: 62.5%;
   box-sizing: border-box;
+  line-height: 1.4;
+  background-color: black;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.6rem;
 }
