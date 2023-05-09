@@ -58,4 +58,27 @@ input {
   border-radius: 4px;
   padding: 10px 15px;
   margin-bottom: 10px;
+  transition: opacity 0.15s;
+}
+
+.create-acc-btn:hover {
+  opacity: 0.9;
+}
+
+.create-acc-btn:active {
+  opacity: 0.8;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: darkred;
 }

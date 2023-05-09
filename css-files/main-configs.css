@@ -51,6 +51,7 @@ body {
   box-sizing: border-box;
   line-height: 1.4;
 	font-family: 'Courier New', Courier, monospace;
+	background-color: #6d42b1;
 }
 
 main {
@@ -58,4 +59,5 @@ main {
   flex-direction: row;
   font-size: 1.6rem;
 	background-color: black;
+	height: 100vh;
 }

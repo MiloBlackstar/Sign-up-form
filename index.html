@@ -14,6 +14,9 @@
 <body>
   <main>
     <div class="main-image">
+      <div class="text-above-image">
+        <p>Odin</p>
+      </div>
       <img class="img" src="./images/stary-sky.avif" alt="Stary sky">
     </div>
 
@@ -25,7 +28,7 @@
       </div>
       
 
-      <form action="">
+      <form action="#">
         <legend>
           <p class="legend-title">Sign up form</p>
           <div class="form__items__container">
@@ -46,7 +49,7 @@
               <input type="text" name="lastName" id="lastName" placeholder="Smith" required>
             
               <label for="phoneNumber">*Phone Number</label>
-              <input type="email" name="phoneNumber" id="phoneNumber" required>
+              <input type="tel" name="phoneNumber" id="phoneNumber" required>
             
               <label for="currentPassword">*Current Password</label>
               <input type="password" name="currentPassword" id="currentPassword" required>
@@ -55,7 +58,7 @@
         </legend>
         <div class="forms-footer">
           <button class="create-acc-btn" type="submit">Create Account</button>
-          <p>Already have an account? <span>Log in</span></p>
+          <p>Already have an account? <a href="#">Log in</a></p>
         </div>
       </form>
     </div>
